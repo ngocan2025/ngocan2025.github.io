@@ -1,0 +1,48 @@
+html {
+  /* px mean is pixel. the base font size is now 10px */
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  background-color: #009a9f;
+}
+
+body{
+  width:800px; height: 1000px;
+  margin:20px auto;
+  background-color:#ff9500;
+  padding: 0 20px 100px 60px;
+  border:20px solid black;
+
+}
+
+img{
+  display: block ;
+  margin:0 auto;
+  max-width: 50%;
+}
+
+h1 {
+  font-size: 88px;
+  text-align: center;
+  
+  margin:0;
+  padding:20px 0;
+  color:#00539f;
+  text-shadow:3px 3px 1px rgb(0, 0, 0);
+}
+
+p,
+li{
+  
+  font-size:30px;
+  font-style: italic;
+color:aliceblue;
+  line-height 4px;
+  letter-spacing: 2px;
+
+
+}
+.done{
+  color:darkseagreen;
+  text-decoration: line-through solid black 2px;
+}
+
