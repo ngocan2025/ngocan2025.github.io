@@ -3,9 +3,9 @@ const myImage = document.querySelector("img");
 myImage.addEventListener("click", () => {
   const mySrc = myImage.getAttribute("src");
   if (mySrc === "images/ngoc.jpg") {
-    myImage.setAttribute("src", "images/ngoc.jpg");
-  } else {
     myImage.setAttribute("src", "images/an.jpg");
+  } else {
+    myImage.setAttribute("src", "images/ngoc.jpg");
   }
 });
 
